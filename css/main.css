@@ -322,7 +322,11 @@ a span { padding-right: 2px; }
 	border-right: 3px double #282828;
 	box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.5);
 
-	position: absolute;
+	position: fixed; 
+	/*you cant see the toolbar once you scroll the screen.*/
+	/*this is not the most elegant solution but it just works */
+	
+	
 	top: 26px;
 	left: 0px;
 	z-index: 99;
